@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Karla", sans-serif;
 }
 
 ul {
@@ -32,4 +33,31 @@ nav {
 
 .list_item {
   margin: 0.5rem 1rem;
+}
+
+.aboutMe {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.aboutMe > img {
+  width: 27rem;
+}
+
+.aboutMe > h1 {
+  font-size: 3rem;
+}
+
+.aboutMe > p {
+  text-align: center;
+  width: 40%;
+}
+
+.aboutMe > p > span {
+  font-weight: 600;
+  font-style: italic;
 }
