@@ -61,3 +61,17 @@ nav {
   font-weight: 600;
   font-style: italic;
 }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-wrap: wrap;
+}
+
+.skills_imgs > img {
+  width: 5rem;
+  margin: 2rem 1rem;
+}
